@@ -11,7 +11,7 @@ public class Main {
         // Usar almacenamiento en la nube
         Almacenamiento nube = new AlmacenamientoNube();
         Gestor_de_Archivos gestorNube = new Gestor_de_Archivos(nube);
-        gestorNube.guardar("documento2.txt", "Contenido en la nube");
-        System.out.println(gestorNube.recuperar("documento2.txt"));
+        gestorNube.guardar("Reporte2024-11-20.txt", "Contenido en la nube");
+        System.out.println(gestorNube.recuperar("Reporte2024-11-20.txt"));
     }
 }
