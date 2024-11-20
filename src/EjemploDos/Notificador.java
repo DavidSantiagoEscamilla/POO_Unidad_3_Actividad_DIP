@@ -5,6 +5,7 @@ public class Notificador {
     public Notificador(ServicioNotificacion servicioNotificacion) {
     this.servicioNotificacion = servicioNotificacion;
     }
+    
     public void notificar(String destinatario, String mensaje) {
     servicioNotificacion.enviarMensaje(destinatario, mensaje);
     }
